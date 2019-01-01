@@ -1,4 +1,4 @@
-package com.FlorentL00.miam;
+package com.FlorentL00.Miam;
 
 public class Aliment {
 
@@ -7,7 +7,7 @@ public class Aliment {
 
     public void manger() {
         if (estCuit) {
-            System.out.println("Miam miam! cet aliment : " + nom + " est bien cuit");
+            System.out.println("com.FlorentL00.Miam miam! cet aliment : " + nom + " est bien cuit");
         } else {
             System.out.println("Beeerk! cet aliment : " + nom + " est cru !");
         }

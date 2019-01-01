@@ -1,4 +1,4 @@
-package com.FlorentL00.miam;
+package com.FlorentL00.Miam;
 
 public class Four {
 
