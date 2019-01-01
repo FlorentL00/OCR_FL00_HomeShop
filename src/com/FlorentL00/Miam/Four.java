@@ -1,8 +1,8 @@
 package com.FlorentL00.Miam;
 
 public class Four {
-    int puissance;
-    int capacite;
+    private int puissance;
+    private int capacite;
 
     /**
      * 4 types de visibilités:
@@ -12,7 +12,7 @@ public class Four {
      * Protected = decrit plus tard
      */
     private Resistance resistance;
-    public Soufflerie soufflerie;
+    private Soufflerie soufflerie;
 
 
     public void cuire(Aliment aliment){
@@ -25,7 +25,31 @@ public class Four {
 
     // exemple avec une methode, permet de structurer son code à linterieur d'une classe.
     private void maintenir(){
-
     }
 
+    // Getter and Setter, code puis generate depuis la console.
+    public int getPuissance(){
+        return puissance;
+    }
+
+    public int setPuissqnce(int puissance){
+        System.out.println("La puissance est modifiée");
+        this.puissance = puissance;
+    }
+
+    public Resistance getResistance() {
+        return resistance;
+    }
+
+    public Soufflerie getSoufflerie() {
+        return soufflerie;
+    }
+
+    public int getCapacite() {
+        return capacite;
+    }
+
+    public void setCapacite(int capacite) {
+        this.capacite = capacite;
+    }
 }
