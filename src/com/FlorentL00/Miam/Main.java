@@ -17,7 +17,7 @@ public class Main {
         monPetitFour.puissance = 180;
 
         Four monGrandFour = new Four();
-        monGrandFour.capacite = 60;
+        monGrandFour.getCapacite = 60;
         monGrandFour.puissance = 250;
 
         Cake.manger();
