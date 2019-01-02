@@ -3,7 +3,7 @@ package com.FlorentL00.Miam;
 public class Aliment {
 
     String nom;
-    Boolean estCuit;
+    boolean estCuit;
 
     public void manger() {
         if (estCuit) {
