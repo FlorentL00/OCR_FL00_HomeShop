@@ -4,7 +4,7 @@
          version="3.1">
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>com.FlorentL00.homeshop.web.HelloWorldServlet</servlet-class>
+        <servlet-class>com.FlorentL00.HomeShop.web.HelloWorldServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
