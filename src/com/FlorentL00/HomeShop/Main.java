@@ -17,20 +17,23 @@ public class Main {
 
         // bill.generate(new FileWritter("facture leblanc"));
 
+        try {
+            bill.generate(new Writer() {
+                @Override
+                public void start() {
+                }
 
-        bill.generate(new Writer() {
-            @Override
-            public void start() {
-            }
+                @Override
+                public void writeLine(String line) {
+                    System.out.println(line);
+                }
 
-            @Override
-            public void writeLine(String line) {
-                System.out.println(line);
-            }
-
-            @Override
-            public void stop() {
-            }
-        });
+                @Override
+                public void stop() {
+                }
+            });
+        } catch (NoProductInBillException e){
+            System.err.println("Pas de produit dans la facture");
+        }
     }
 }
