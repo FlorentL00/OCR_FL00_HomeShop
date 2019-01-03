@@ -31,5 +31,9 @@ public class Main {
         monPetitFour.cuire(Gateau);
         System.out.println("");
         Gateau.manger();
+
+        Four four = new Four();
+        four.cuir(30, 15);
+
+        }
     }
-}
