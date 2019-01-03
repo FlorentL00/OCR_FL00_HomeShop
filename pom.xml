@@ -17,10 +17,18 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+                <version>3.7.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.8.v20171121</version>
+                <configuration>
+                    <scanIntervalSeconds>1</scanIntervalSeconds>
+                </configuration>
             </plugin>
         </plugins>
     </build>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
@@ -30,6 +38,4 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    
 </project>
