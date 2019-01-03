@@ -1,7 +1,7 @@
 package com.FlorentL00.Garage;
 
-public class Vehicle {
-    private String modelName;
+public abstract class Vehicle {
+    protected String modelName;
     private String description;
     private String manufacturer;
     private String color;
@@ -9,6 +9,9 @@ public class Vehicle {
     private int speed;
     private int weight;
     private int[] dimensions = new int[3];
+
+    public Vehicle() {
+    }
 
     public Vehicle(String modelName, String description, String manufacturer, String color, int year, int speed, int weight, int[] dimensions) {
         this.modelName = modelName;
@@ -21,13 +24,9 @@ public class Vehicle {
         this.dimensions = dimensions;
     }
 
-    public void start(){
-        System.out.println("Ma voiture, " + modelName + " démarre!");
-    }
+    public abstract void start();
 
-    public void stop(){
-        System.out.println("Ma voiture, " + modelName + " s'arrête!");
-    }
+    public abstract void stop();
 
     public String getModelName() {
         return modelName;
