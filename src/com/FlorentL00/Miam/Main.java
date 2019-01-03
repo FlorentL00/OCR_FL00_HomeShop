@@ -13,12 +13,12 @@ public class Main {
         Gateau.estCuit = false;
 
         Four monPetitFour = new Four();
-        monPetitFour.capacite = 30;
-        monPetitFour.puissance = 180;
+        // monPetitFour.capacite = 30;
+        // monPetitFour.puissance = 180;
 
         Four monGrandFour = new Four();
-        monGrandFour.getCapacite = 60;
-        monGrandFour.puissance = 250;
+        // monGrandFour.getCapacite = 60;
+        // monGrandFour.puissance = 250;
 
         Cake.manger();
         System.out.println("");

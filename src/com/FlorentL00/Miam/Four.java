@@ -32,7 +32,7 @@ public class Four {
         return puissance;
     }
 
-    public int setPuissqnce(int puissance){
+    public void setPuissqnce(int puissance){
         System.out.println("La puissance est modifiée");
         this.puissance = puissance;
     }

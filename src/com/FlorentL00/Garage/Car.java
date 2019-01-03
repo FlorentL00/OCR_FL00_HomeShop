@@ -24,7 +24,7 @@ public class Car extends Vehicle {
 
     @Override
     public void stop(){
-        System.out.println("Je suis " modelName + " j'arrete mon moteur " + motor);
+        System.out.println("Je suis " + modelName + " j'arrete mon moteur " + motor);
     }
 
     public void startHeadLight(){
